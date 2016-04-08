@@ -71,5 +71,10 @@ namespace Snake
             Draw();
         }
 
+
+        public bool IsHit(Point p)
+        {
+            return p.X == this.x && p.Y == this.Y;
+        }
     }
 }
